@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 70vh; 
+    position: relative;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav{
+    display: flex;
+    height: 4rem;
+    padding-bottom: 60px;
+    
+}
+.nav .img img{
+    margin-left: 220px;
+    width: 136px;
+    height: 35px;
+    margin-top: 25px;
+
+
+}
+
+
+.nav-bar{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 130px;  
+    margin-bottom: 15px;
+} 
+.navs{
+    padding-right: 10px;   
+     font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+     font-size: small;
+     font-weight: 600;
+     margin-left: 25px;
+}
+
+.buttons{
+    display: flex;
+     margin-right: 215px;
+     margin-left: 80px;
+     margin-top: 18px;
+
+}
+.buttons .login-button button{
+
+     height: 36px;
+     width: 85px;
+     border-radius: 25px;
+     padding-left: 2px;
+     margin-left: 5px;
+     padding-top:0vh;
+    border-color: #1a04a8;
+     background-color: #FFFFFF;
+     color: black;
+     cursor: pointer;
+}
+.buttons .Sign-up button{
+    height: 36px;
+    width: 85px;
+    border-radius: 25px;
+    padding-left: 2px;
+    margin-left: 5px;
+    padding-top:0vh;
+   border-color: #025173;
+    background-color: #335ba1;
+    color: white;
+    cursor: pointer;
+}
+.arrows img{
+    margin-left:px;
+    padding-right: 20px;
+    padding-top: 2px;
+}
+.body-1{
+    background-color: #019CDF;
+    position: relative;    
+    height: 80vh;
+}
+.body-1 video{
+   width: 100%;
+  
+   height: 40vh;
+   position: absolute;
+   bottom: 0;
+}
+
+
+.body-1-contents{
+    z-index: 9;
+}
+.ppp{
+    display: flex;
+    padding-left: 10%;
+    margin-top: 90px;
+    color: #92ECFF;
+    font-family: 'Times New Roman', Times, serif ;
+}
+.ppp-1{
+   margin-right: 130px;
+}
+
+.title-1 h1{
+ 
+     padding-left:420px; 
+    justify-content: center; 
+     color:white;
+     font-size: 2.5rem;
+     font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+     font-weight: 300;
+}
+.ppp222 {
+    padding-top: 30px;   
+}
+.ppp111{
+    padding-left:70px;
+}
+.button-2 button{
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 307px;
+    height: 50px;
+    border-color: #FFFFFF;
+    cursor: pointer;
+    color:#0D3685;
+}
+.body-2{
+    background-color: #02387B;
+    padding-top: 0%;
+}
+.button-3{
+    padding-bottom: 20px;
+}
+.button-3 button{
+    margin-left: 45%;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 140px;
+    height: 38px;
+    border-color: #FFFFFF;
+    cursor: pointer;
+   
+}
+.title-2 h1{
+     padding-left:200px; 
+     color:white;
+     font-size: 1.5rem;
+     font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+     font-weight: 100;
+     padding-top: 20px;
+}
+.defnition{
+    margin-right: 180px;
+    
+}
+.def-image img{
+    width: 305px;
+   height: 329px;
+}
+.body-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right:210px ;
+    background-color: #F5F7FA;
+    padding-bottom: 40px;
+}
+.body-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right:210px ;
+    background-color:white;
+    padding-bottom: 40px;
+}
+.body-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-right:210px ;
+    background-color: #F5F7FA;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    margin-bottom: 60px;
+}   
+.def-title{
+    font-size: 2.5rem;
+    color: #00A8EA;
+    font-weight: 400;
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+}
+.def-p{
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.def-button button{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 307px;
+    height: 50px;
+    border-color: #7BB4DA; 
+    color: #7BB4DA;
+    font-weight: 400;
+    cursor: pointer;
+}
+.defnition-2{
+    margin-left: 6cm;
+}
+.image-company{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+}
+.body-6{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 90px;
+}
+.body-6-title{
+    padding-left:400px; 
+    color:#00A8EA;
+    font-size: 2.5rem;
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+    font-weight: 100;
+    padding-top: 60px;
+    
+}
+.image-company .image-1 img{
+    height: 30px;
+    width: 95px;
+}
+.image-company .image-2 img{
+    height: 60px;
+    width: 95px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.image-company .image-3 img{
+    height: 60px;
+    width: 95px;
+}
+.body-7{
+    background-color: #00A8EA;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+.body-7 .title-1 .ppp222 h1{ 
+    padding-left: 250px;
+    margin-top: 20px;
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif; 
+}
+.body-7 .title-1 .ppp111 h1{ 
+    padding-left: 350px;
+    margin-top: 10px;
+}
+.body-7 .def-button button{
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 30px;
+    border-radius: 25px;
+    width: 307px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #150673;
+    cursor: pointer;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-7{
+    width: 65px;
+    height: 60px;
+    background-color: #FFFFFF;
+    margin-right: 2px;
+    margin-left:2px ;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    padding-top: 11px;
+    padding-left: 24px;
+    margin-top: 65px;
+}
+.box-7 h1{
+    height: 30px;
+    width: 20px;
+}
+.body-8{
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.body-8-p{
+    padding-left: 212px;
+    letter-spacing: 0.8px;
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+}
+.body-8-p a{
+    font-weight:600;
+    cursor: pointer;
+    color: #1a04a8;
+}
+.body-9{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+.body-9-1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(179, 177, 177) ;
+    margin-right: 212px;
+    margin-left: 212px;
+}
+.body-9-1 a{
+    color:black;
+}
+.body-9-p{
+    /* margin-left: 212px; */
+    padding-right: 620px;
+    display:flex;
+}
+.body-9-image{
+    margin-left: 212px;
+}
+.body-9-2{
+    display: flex;
+    justify-content: center;
+    margin-right: 212px;
+    margin-left: 212px;
+    padding-top: 20px;
+}
+.body-9-p-1{
+    padding-right: 290px;
+    display: flex;
+}
+.body-9-p-2{
+    display: flex;
+}
+.body-9-3{
+    justify-content: center;
+    align-items: center;
+    margin-right: 212px;
+    margin-left: 212px;
+}
+.body-9-4{
+    justify-content: center;
+    align-items: center;
+    margin-right: 212px;
+    margin-left: 212px;
+}
+.p-9 a{
+    padding-right: 10px;
+}
+.body-9-3 p{
+    padding-top: 20px;
+    padding-right: 30px;
+    font-size:14px;
+    font-family:PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+    color:rgb(120, 120, 120);
+}
+.body-9-4{
+    padding-top: 20px;
+    padding-right: 30px;
+    font-size:14px;
+    font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+    color: rgb(120, 120, 120);
+}
+.body-9-p-1 a{
+    color: rgb(120, 120, 120);
+}
+.body-9-p-2 a{
+    color: rgb(120, 120, 120);
+}
